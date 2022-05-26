@@ -1,0 +1,250 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="Author" content="Daniel">
+    <meta name="Description" content="hola">
+    <meta name="Keywords" content="hola">
+	<title>EL PRIMOS</title>
+	<link rel="shortcut icon" href="icono.png" type="daniel">
+    <style type="text/css">
+        .menu ul {
+		display: flex;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	.menu a {
+		display: block;
+		padding: 2em;
+		background-color: #310303;
+		text-decoration: none;
+		color: #fcfcfc;
+	}
+	.menu a:hover {
+		background-color: #a80000;
+	}
+	.menu ul li ul {
+		display: none;
+	}
+	.menu ul li a:hover + ul, .menu ul li ul:hover {
+		display: block;
+	}
+    .INICIO{
+      
+      color:#fcfcfc;
+  }
+
+  .INICIO2{
+    font-size: 7px;
+      color:#fcfcfc;
+  }
+  .bloquepie{
+    background-color: #1f1f1f;
+    padding: 2em;
+    color: #fcfcfc;
+  }
+
+
+
+
+
+
+.dropbtn {
+  background-color: #310303;
+  color: white;
+  padding: 2em;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #a80000;
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 2em;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #a80000;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #a80000;}
+
+.show {display: block;}
+
+
+.linea{
+  width:75%;
+  border-color:#310303;
+}
+
+
+
+        </style>
+	</head>
+<body bgcolor="#310315">
+	<body>
+    <nav class="menu"  >
+      <ul>
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="#">GENEROS</a>
+              <ul>
+                  <li><a href="aventura.html">AVENTURA</a></li>
+                  <li><a href="enlaces.html">PLATAFORMAS</a></li>
+                  <li> <a href="Miedo.html">TERROR</a></li>
+                  <li><a href="registro.html">SHOOTERS</a></li>
+              </ul>
+          </li>
+          <li><a href="musica.html">MUSICA</a>
+            </li>
+            <li><a href="peliculas.html">PELICULAS</a>
+            </li>
+              <li><a href="#">CONSOLAS</a>
+               <ul>
+                  <li><a href="https://www.instant-gaming.com/es/juegos/xbox-series-x-s/">XBOX</a></li>
+                  <li><a href="https://www.instant-gaming.com/es/juegos/playstation-5/">PLAYSTATION</a></li>
+                  <li><a href="https://www.instant-gaming.com/es/juegos/switch/">NINTENDO</a></li>
+              </ul>
+              </li>
+              <li><a href="#">COLABORACIONES</a>
+                  <ul>
+                      <li><a href="https://www.elamigos-games.com/">El Amigos</a></li>
+                       <li><a href="https://www.instant-gaming.com">Instant Gaming</a></li>
+                  </ul>
+                  <li><a href="formulario.html">REGISTRATE </A></li>
+                  
+                    <li><a href="información.html">INFORMACIÓN</a></li>
+      
+ 
+                    <div class="dropdown">
+                      <button onclick="myFunction()" class="dropbtn">Buscador🔎</button>
+                      <div id="myDropdown" class="dropdown-content">
+                        <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                        <a href="#about">EuroTrackSimulator</a>
+                        <a href="#base">DaysGone</a>
+                        <a href="#blog">FarCry3</a>
+                        <a href="#contact">Metal Gear Solid V</a>
+                        <a href="#custom">God Of War</a>
+                        <a href="Reddead.html">Red Dead Redemption 2</a>
+                        <a href="#tools">Tomb Raider</a>
+                      </div>
+                    </div>
+                  
+                              
+                      
+                  </ul>
+                
+
+                    </nav>
+
+
+
+                   
+<script>
+  /* When the user clicks on the button,
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  function filterFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    div = document.getElementById("myDropdown");
+    a = div.getElementsByTagName("a");
+    for (i = 0; i < a.length; i++) {
+      txtValue = a[i].textContent || a[i].innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        a[i].style.display = "";
+      } else {
+        a[i].style.display = "none";
+      }
+    }
+  }
+  </script>
+
+
+
+                    <H1 align="center" class="INICIO"> EL PRIMOS </H1>
+
+        <img src="multimedia/red dead 2.jpg" alt="logo"  width="200" height="340">
+       
+       
+    <p class="INICIO2" >ACERCA DE ESTE JUEGO
+          América, 1899. </p>
+          <hr>  
+          <p class="INICIO2"> Arthur Morgan y la banda de Van der Linde son forajidos en busca y captura. Mientras los agentes federales y los mejores cazarrecompensas de la nación les pisan los talones, la banda deberá abrirse camino por el abrupto territorio del corazón de América y sobrevivir a base de robos y peleas. Arthur deberá elegir entre sus propios ideales y la lealtad a la banda que lo vio crecer.
+          
+          Con contenido adicional para el Modo Historia y un completo modo Foto, Red Dead Redemption 2 también incluye acceso gratuito al mundo multijugador compartido de Red Dead Online, en el que los jugadores asumen diversos roles para ganarse la vida a su manera en la frontera mientras persiguen a fugitivos buscados como cazarrecompensas, crean un negocio como comerciantes, descubren exóticos tesoros como coleccionistas, dirigen una destilería ilegal como licoristas y muchas cosas más.
+          
+          Gracias a las nuevas mejoras gráficas y técnicas que permiten una mayor inmersión en el juego, Red Dead Redemption 2 para PC aprovecha al máximo la potencia de los equipos para conseguir que todos y cada uno de los aspectos de este gigantesco mundo lleno de detalles cobren vida. Incluye mayores distancias de dibujado; iluminación global y oclusión ambiental de mayor calidad, para mejorar la luz tanto de día como de noche; reflejos mejorados y sombras más profundas y de mayor resolución a todas las distancias; texturas de árboles teseladas y texturas de hierba y pelaje mejoradas para aumentar el realismo de las plantas y animales.
+          
+          Red Dead Redemption 2 para PC también ofrece compatibilidad con HDR, la posibilidad de utilizar pantallas de alta gama (con resoluciones 4K y superiores), configuraciones con varios monitores, con pantalla panorámica, mayores tasas de fotogramas, etc.</p>
+          <hr>
+          <p class="INICIO2"> DESCRIPCIÓN DEL CONTENIDO PARA ADULTOS
+          Los desarrolladores describen su contenido así:
+          
+          Este juego puede incluir contenido no apto para todas las edades o para verlo en el trabajo: contenido general para adultos </p>
+        <br>
+
+
+        <p class="INICIO2">         REQUISITOS DEL SISTEMA
+              MÍNIMO: </p>
+              <hr>
+              <p class="INICIO2">   Requiere un procesador y un sistema operativo de 64 bits
+              SO: Windows 7 - Service Pack 1 (6.1.7601)
+              Procesador: Intel® Core™ i5-2500K / AMD FX-6300
+              Memoria: 8 GB de RAM
+              Gráficos: Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB
+              Red: Conexión de banda ancha a Internet
+              Almacenamiento: 150 GB de espacio disponible
+              Tarjeta de sonido: Direct X Compatible
+              <br>
+              
+              <p class="INICIO2"> RECOMENDADO: </p>
+              <hr>
+              <p class="INICIO2"> Requiere un procesador y un sistema operativo de 64 bits
+              SO: Windows 10 - April 2018 Update (v1803)
+              Procesador: Intel® Core™ i7-4770K / AMD Ryzen 5 1500X
+              Memoria: 12 GB de RAM
+              Gráficos: Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB
+              Red: Conexión de banda ancha a Internet
+              Almacenamiento: 150 GB de espacio disponible
+              Tarjeta de sonido: Direct X Compatible
+              Condiciones de la licencia de software en el juego y en www.rockstargames.com/es/eula; condiciones de la cuenta online en es.socialclub.rockstargames.com. Para disfrutar de acceso no transferible a características especiales como contenidos, servicios o funciones adicionales, exclusivos, desbloqueables, descargables, multijugador u online, puede necesitarse un código de serie de un único uso, cuotas adicionales o el registro de una cuenta online no transferible (para mayores de 13 años; puede variar). El acceso a funciones especiales puede requerir conexión a Internet, puede no estar disponible para todos los usuarios o en todo momento y puede cancelarse, modificarse u ofrecerse con otras condiciones sin previo aviso. El incumplimiento del ALUF, del código de conducta o de cualquier otra política puede conllevar la restricción o la cancelación del acceso al juego o la cuenta online. Si necesitas información, asistencia al cliente o asistencia técnica, visita www.rockstargames.com/support/es. El contenido de este juego es ficticio. A pesar de incluir personas, lugares, empresas, grupos, acontecimientos, edificios, etc. que pueden asemejarse a los del mundo real, estos no poseen ningún tipo de afiliación ni asociación con el juego, y dichas representaciones no están basadas en la realidad. Los creadores, editores y licenciatarios de este videojuego no apoyan, fomentan ni animan ningún contenido incluido en el mismo. Está prohibido copiar sin autorización, modificar, aplicar ingeniería inversa, descompilar, transmitir, emitir en público, alquilar, pagar por jugar y anular la protección anticopia. Cualquiera de estas acciones supone una infracción del ALUF. Consulta la licencia del software en www.rockstargames.com/es/eula y las condiciones del servicio en www.rockstargames.com/es/legal para obtener más información.
+
+              Rockstar Games, Inc. ©2005-19. Rockstar Games, Red Dead Redemption, la R*, Redemption, Red Dead y Dead Eye son marcas/logotipos/copyrights de Take-Two Interactive. Dolby y el símbolo de la doble D son marcas comerciales de Dolby Laboratories. El resto de marcas y marcas comerciales pertenecen a sus respectivos titulares. Todos los derechos reservados.</p>
+</div> 

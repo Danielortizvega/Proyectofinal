@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="Author" content="Daniel">
+    <meta name="Description" content="hola">
+    <meta name="Keywords" content="hola">
+	<title>EL PRIMOS</title>
+	<link rel="shortcut icon" href="icono.png" type="daniel">
+    <style type="text/css">
+        .menu ul {
+		display: flex;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+  .menu {
+  position: sticky; 
+  top: 0;
+}
+	.menu a {
+		display: block;
+		padding: 2em;
+		background-color: #310303;
+		text-decoration: none;
+		color: #fcfcfc;
+	}
+	.menu a:hover {
+		background-color: #a80000;
+	}
+	.menu ul li ul {
+		display: none;
+	}
+	.menu ul li a:hover + ul, .menu ul li ul:hover {
+		display: block;
+	}
+    .INICIO{
+      
+      color:#fcfcfc;
+  }
+  .bloquepie{
+    background-color: #1f1f1f;
+    padding: 2em;
+    color: #fcfcfc;
+  }
+
+
+
+
+
+
+.dropbtn {
+  background-color: #310303;
+  color: white;
+  padding: 2em;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #a80000;
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 2em;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #a80000;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #a80000;}
+
+.show {display: block;}
+
+
+
+
+
+
+        </style>
+	</head>
+<body bgcolor="#310315">
+
+    <nav class="menu"  >
+      <ul>
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="#">GENEROS</a>
+              <ul>
+                  <li><a href="aventura.html">AVENTURA</a></li>
+                  <li><a href="enlaces.html">PLATAFORMAS</a></li>
+                  <li> <a href="Miedo.html">TERROR</a></li>
+                  <li><a href="registro.html">SHOOTERS</a></li>
+              </ul>
+          </li>
+          <li><a href="musica.html">MUSICA</a>
+            </li>
+            <li><a href="peliculas.html">PELICULAS</a>
+            </li>
+              <li><a href="#">CONSOLAS</a>
+               <ul>
+                  <li><a href="https://www.instant-gaming.com/es/juegos/xbox-series-x-s/">XBOX</a></li>
+                  <li><a href="https://www.instant-gaming.com/es/juegos/playstation-5/">PLAYSTATION</a></li>
+                  <li><a href="https://www.instant-gaming.com/es/juegos/switch/">NINTENDO</a></li>
+              </ul>
+              </li>
+              <li><a href="#">COLABORACIONES</a>
+                  <ul>
+                      <li><a href="https://www.elamigos-games.com/">El Amigos</a></li>
+                      <li><a href="https://www.w3schools.com/css/css_grid.asp">W3SCHOOL</a></li>
+                       <li><a href="https://www.instant-gaming.com">Instant Gaming</a></li>
+                  </ul>
+                  <li><a href="formulario.html">REGISTRATE </A></li>
+                  
+                    <li><a href="información.html">INFORMACIÓN</a></li>
+      
+ 
+                    <div class="dropdown">
+                      <button onclick="myFunction()" class="dropbtn">Buscador🔎</button>
+                      <div id="myDropdown" class="dropdown-content">
+                        <input type="text" placeholder="Buscar..." id="myInput" onkeyup="filterFunction()">
+                        <a href="#about">EuroTrackSimulator</a>
+                        <a href="#base">DaysGone</a>
+                        <a href="#blog">FarCry3</a>
+                        <a href="#contact">Metal Gear Solid V</a>
+                        <a href="#custom">God Of War</a>
+                        <a href="Reddead.html">Red Dead Redemption 2</a>
+                        <a href="#tools">Tomb Raider</a>
+                      </div>
+                    </div>
+                  
+                              
+                      
+                  </ul>
+                
+
+                    </nav>
+
+
+
+                   
+<script>
+  
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  function filterFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    div = document.getElementById("myDropdown");
+    a = div.getElementsByTagName("a");
+    for (i = 0; i < a.length; i++) {
+      txtValue = a[i].textContent || a[i].innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        a[i].style.display = "";
+      } else {
+        a[i].style.display = "none";
+      }
+    }
+  }
+  </script>
+
+
+
+                    <H1 align="center" class="INICIO"> EL PRIMOS </H1>
+        <center><img src="multimedia/el primosito.png" alt="logo"  width="200" height="340"></center>
+        <br>
+
+
+
+
+
+
+
+
+
+
+        <p class="INICIO">La mejor pagina de entretenimiento en todas España. Donde encotraras: 
+         <br>
+         <a href="#" class="INICIO"> 👉Videojuegos</a>
+          <br>
+          <a href="#" class="INICIO"> 👉Musica</a>
+          <br>
+          <a href="#" class="INICIO">👉Peliculas</a>
+          <br>
+          ⚠Si se descarga uno de nuestros juegos que sepa usted que no nos hacemos cargo de problemas causados por virus o cualquier tipo de malware. Muchas gracias y a disfrutar!!!</p>
+        
+    <div align="right">
+                    <a  href="https://www.twitch.tv/mrsoki"><img src="multimedia/twitch.png" alt="logo"  width="50" height="50"></a>
+                    <a href="https://www.instagram.com/soydannyortiz/?hl=es"><img src="multimedia/Instagram_logo_2016.svg.png" alt="logo"  width="50" height="50"></a>
+                    <a href="https://twitter.com/IbaiLlanos?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="multimedia/twitter.png" alt="logo"  width="50" height="50"></a>
+                    <a href="https://github.com/Danielortizvega/lenguajemarca21-22"><img src="multimedia/github.png" alt="logo"  width="50" height="50"></a>
+        </div>
+    <footer class= bloquepie>
+        <div align="center">
+       <p> Copyright © ElPrimos (Daniel Ortiz Vega) 2022-2022</p>
+    </div>
+    </footer>

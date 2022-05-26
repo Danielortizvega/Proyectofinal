@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="Author" content="Daniel">
+    <meta name="Description" content="hola">
+    <meta name="Keywords" content="hola">
+	<title>EL PRIMOS</title>
+	<link rel="shortcut icon" href="icono.png" type="daniel">
+    <style type="text/css">
+        .menu ul {
+		display: flex;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+  .menu {
+  position: sticky; 
+  top: 0;
+}
+	.menu a {
+		display: block;
+		padding: 2em;
+		background-color: #310303;
+		text-decoration: none;
+		color: #fcfcfc;
+	}
+	.menu a:hover {
+		background-color: #a80000;
+	}
+	.menu ul li ul {
+		display: none;
+	}
+	.menu ul li a:hover + ul, .menu ul li ul:hover {
+		display: block;
+	}
+    .INICIO{
+      
+      color:#fcfcfc;
+  }
+  .bloquepie{
+    background-color: #1f1f1f;
+    padding: 2em;
+    color: #fcfcfc;
+  }
+
+  button{
+  width: 100px;
+  height: 100px;
+  background: rgb(0, 255, 34);
+  transition: width 2s, height 2s, transform 2s;
+}
+button:hover {
+  width: 300px;
+  height: 50PX;
+  border-radius: 0%;
+}
+
+
+        </style>
+	</head>
+<body bgcolor="#310315">
+	<body>
+
+		
+                    <nav class="menu"  >
+                        <ul>
+                            <li><a href="index.html">INICIO</a></li>
+                            <li><a href="#">GENEROS</a>
+                                <ul>
+                                    <li><a href="aventura.html">AVENTURA</a></li>
+                                    <li><a href="enlaces.html">PLATAFORMAS</a></li>
+                                    <li> <a href="Miedo.html">TERROR</a></li>
+                                    <li><a href="registro.html">SHOOTERS</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">MUSICA</a>
+                              </li>
+                              <li><a href="peliculas.html">PELICULAS</a>
+                              </li>
+                                <li><a href="#">CONSOLAS</a>
+                                 <ul>
+                                    <li><a href="https://www.instant-gaming.com/es/juegos/xbox-series-x-s/">XBOX</a></li>
+                                    <li><a href="https://www.instant-gaming.com/es/juegos/playstation-5/">PLAYSTATION</a></li>
+                                    <li><a href="https://www.instant-gaming.com/es/juegos/switch/">NINTENDO</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">COLABORACIONES</a>
+                                    <ul>
+                                        <li><a href="https://www.elamigos-games.com/">El Amigos</a></li>
+                                         <li><a href="https://www.instant-gaming.com">Instant Gaming</a></li>
+                                    </ul>
+                                    <li><a href="formulario.html">REGISTRATE </A></li>
+                                    
+                                      <li><a href="información.html">INFORMACIÓN</a></li>
+                        
+                    </ul>
+
+                    </nav>
+                    <H1 align="center" class="INICIO"> EL PRIMOS </H1>
+        <center><img src="multimedia/el primosito.png" alt="logo"  width="200" height="340"></center>
+        <br>
+
+
+
+
+
+        <br>
+        <label for="mail" align="center"  class="INICIO">Correo electrónico:</label>
+         <input type="email" align="center" id="mail" name="user_mail" placeholder="Inserte su correo">
+<br>
+         <label for="msg" align="center" class="INICIO">Contraseña:</label>
+        <input type="password" align="center" pattern=".{6,}" placeholder="Inserte su contraseña">
+       <br>
+       
+        <input type="submit" value="Iniciar">
+         <input type="reset" value="Borrar">
+ 
+       <br>
+
+        <details align="center"> <summary class="INICIO" >REGISTRATE </summary> 
+          
+  
+    
+  <form action="../../form-result.php" target="_blank">
+
+                      <label for="name" class="INICIO">Correo:</label>
+                      <input type="email" id="mail" name="user_mail" placeholder="Inserte su nombre">
+                  
+                      <label for="name" class="INICIO">Nombre:</label>
+                     <input type="text"  name="user_text" placeholder="Inserte su Correo">
+
+                        <label for="name" class="INICIO">Apellidos:</label>
+                      <input type="email" id="mail" name="user_mail" placeholder="Inserte apellidos">
+
+                    <br>
+                    <p  class="INICIO">Año de nacimiento: <input type="number" name="nacido" min="1900" placeholder="Fecha de nacimiento"></p>
+                    <br>
+                    <p> <label for="birthday" class="INICIO">Fecha de nacimiento:</label>
+                    <input type="date" id="birthday" name="birthday">
+                    </p>
+                    <br>
+                     <label for="mail"  class="INICIO">Correo electrónico:</label>
+                      <input type="email" id="mail" name="user_mail" placeholder="Inserte su correo">
+                      
+                      <label for="msg"  class="INICIO">Contraseña:</label>
+                     <input type="password" pattern=".{6,}" placeholder="Inserte su contraseña">
+                    <br>
+                    <p>
+                    <label for="phone" class="INICIO">Inserta tu numero de telefono:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="+34 000 000 000">
+                   </p>
+                   <br>
+                      <p  class="INICIO">Sexo:
+                      <input type="radio" name="hm" value="h"> Hombre
+                      <input type="radio" name="hm" value="m"> Mujer
+                      <input type="radio" name="hm" value="m"> otros
+                    </p>
+                    
+                    <p class="INICIO"> Titulacion </p>
+
+                    <select multiple name="categorias[]">
+
+                      <option value="ESO" >ESO</option>
+                      <option value=" BACHILLERATO"> BACHILLERATO</option>
+                      <option value="FP">FP</option>  </select>
+                   
+                   
+                      <p class="INICIO"> Rango </p> 
+
+                    <input type="range">
+                    <br>
+                
+                 <p>
+                    <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+                </p>
+                </form>
+
+
+    <br>
+    <div align="right">
+                    <a  href="https://www.twitch.tv/mrsoki"><img src="multimedia/twitch.png" alt="logo"  width="50" height="50"></a>
+                    <a href="https://www.instagram.com/soydannyortiz/?hl=es"><img src="multimedia/Instagram_logo_2016.svg.png" alt="logo"  width="50" height="50"></a>
+                    <a href="https://twitter.com/IbaiLlanos?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="multimedia/twitter.png" alt="logo"  width="50" height="50"></a>
+                    <a href="https://github.com/Danielortizvega/lenguajemarca21-22"><img src="multimedia/github.png" alt="logo"  width="50" height="50"></a>
+        </div> 
+      </body>
+    <footer class= bloquepie>
+        <div align="center">
+       <p> Copyright © ElPrimos (Daniel Ortiz Vega) 2022-2022</p>
+    </div>
+    </footer>
+    </details>
